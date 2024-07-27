@@ -12,7 +12,7 @@ services:
       retries: 10
 
   shop-app:
-    image: yuliavladimirov/hoga-shop
+    image: ivanburniashev/garden-and-home:latest
     restart: on-failure
     build: .
     ports:
